@@ -1,0 +1,16 @@
+D:\Documents\Visual Studio\YamGame\bin\Debug\NUnit3.TestAdapter.dll
+D:\Documents\Visual Studio\YamGame\bin\Debug\NUnit3.TestAdapter.pdb
+D:\Documents\Visual Studio\YamGame\bin\Debug\nunit.engine.dll
+D:\Documents\Visual Studio\YamGame\bin\Debug\nunit.engine.api.dll
+D:\Documents\Visual Studio\YamGame\bin\Debug\nunit.engine.core.dll
+D:\Documents\Visual Studio\YamGame\bin\Debug\testcentric.engine.metadata.dll
+D:\Documents\Visual Studio\YamGame\bin\Debug\YamGame.exe.config
+D:\Documents\Visual Studio\YamGame\bin\Debug\YamGame.exe
+D:\Documents\Visual Studio\YamGame\bin\Debug\YamGame.pdb
+D:\Documents\Visual Studio\YamGame\bin\Debug\nunit.framework.dll
+D:\Documents\Visual Studio\YamGame\bin\Debug\nunit.framework.xml
+D:\Documents\Visual Studio\YamGame\obj\Debug\YamGame.csproj.AssemblyReference.cache
+D:\Documents\Visual Studio\YamGame\obj\Debug\YamGame.csproj.CoreCompileInputs.cache
+D:\Documents\Visual Studio\YamGame\obj\Debug\YamGame.csproj.CopyComplete
+D:\Documents\Visual Studio\YamGame\obj\Debug\YamGame.exe
+D:\Documents\Visual Studio\YamGame\obj\Debug\YamGame.pdb
