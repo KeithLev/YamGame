@@ -6,9 +6,10 @@ using System.Threading.Tasks;
 
 namespace YamGame
 {
-    public interface IDice
+    public interface IScoreCard
     {
-        DiceFace RollDice();
-        DiceFace ReturnCurrentSide();
+        int CalculateTotal();
+        void ResetScoreCard();
+
     }
 }

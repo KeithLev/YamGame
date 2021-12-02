@@ -6,56 +6,59 @@ using System.Threading.Tasks;
 
 namespace YamGame
 {
-    class Program
+    public class Program
     {
+        
+
         static void Main(string[] args)
         {
+            BasicActions basicActions = new BasicActions();
+            ScoreCard scoreCard = new ScoreCard();
             List<IDice> dice = new List<IDice>();
-            for(int i = 0; i < 6; i++)
+
+            int round = 0;
+            int rolls = 0;
+
+
+            for(int i = 0; i <= 4; i++)
             {
                 Dice dice1 = new Dice();
                 dice.Add(dice1);
             }
-
-            Player player = new Player(dice);
-
-            List<IDice> dice2 = player.ReturnCurrentDice();
-            List<IDice> dice3 = new List<IDice>();
-            dice3.Add(dice2[0]);
-
-            foreach (IDice dice1 in dice2)
+            while(round <= 13)
             {
-                Console.WriteLine(dice1.ReturnCurrentSide());
+                Console.WriteLine("These are you dice:");
+                basicActions.PrintDice(dice);
+                Console.WriteLine("Select dice to reroll");
+                string selectedDice = Console.ReadLine();
+                List<IDice> selected = basicActions.SelectedDice(dice, selectedDice);
+                basicActions.RollDice(selected);
+                Console.WriteLine($"Your rerolled dice are:");
+                basicActions.PrintDice(selected);
+                Console.ReadLine();
+
+
+
+
+
+
             }
-            Console.ReadLine();
 
 
-            Console.WriteLine(player.RollSelectedDice(dice3)[0].ReturnCurrentSide());
 
-            Console.ReadLine();
-
-            foreach (IDice dice1 in dice2)
-            {
-                Console.WriteLine(dice1.ReturnCurrentSide());
-            }
-            Console.ReadLine();
+            
+            
 
 
 
 
-            /*foreach(IDice dice1 in dice2)
-            {
-                Console.WriteLine(dice1.ReturnCurrentSide());
-            }
-            Console.ReadLine();
 
-            dice2 = player.RollAllDice();
 
-            foreach (IDice dice1 in dice2)
-            {
-                Console.WriteLine(dice1.ReturnCurrentSide());
-            }
-            Console.ReadLine(); */
         }
+
+
+
+
+
     }
 }

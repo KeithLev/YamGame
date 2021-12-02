@@ -50,14 +50,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BasicActions.cs" />
+    <Compile Include="Scoreing\CountDice.cs" />
     <Compile Include="Dice\Dice.cs" />
     <Compile Include="Dice\DiceFace.cs" />
     <Compile Include="Dice\IDice.cs" />
-    <Compile Include="Player\IPlayer.cs" />
-    <Compile Include="Player\Player.cs" />
+    <Compile Include="Scoreing\IScoreCard.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Randomiser.cs" />
+    <Compile Include="Scoreing\LowerScoreCard.cs" />
+    <Compile Include="Scoreing\ScoreCard.cs" />
+    <Compile Include="Scoreing\UpperScoreCard.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

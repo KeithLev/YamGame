@@ -8,7 +8,7 @@ namespace YamGame
 {
     public class Dice : IDice
     {
-        private DiceFace currentDiceFace;
+        public DiceFace currentDiceFace;
 
         public Dice()
         {
