@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace YamGame
 {
-    class UpperScoreCard
+    public class UpperScoreCard
     {
         public  int AcesScore;
         public bool CanAddAces;
